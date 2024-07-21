@@ -6,6 +6,19 @@
     font-family: RegularMono;
     src: url(./font/Mono/SpaceMono-Regular.ttf);
 }
+#ani{
+    animation: bounce1 1s linear 1;
+}
+@keyframes bounce1 {
+    0% {
+      transform: translateY(-50%);
+      animation-timing-function: linear;
+    }
+    100% {
+      transform: translateY(0);
+      animation-timing-function: linear;
+    }
+  }
 
 @tailwind base;
 @tailwind components;
