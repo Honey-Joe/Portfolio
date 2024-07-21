@@ -1,0 +1,12 @@
+@font-face {
+    font-family: RegularK;
+    src: url(./font/kaushan/KaushanScript-Regular.otf);
+}
+@font-face {
+    font-family: RegularMono;
+    src: url(./font/Mono/SpaceMono-Regular.ttf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
