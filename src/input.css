@@ -11,11 +11,11 @@
 }
 @keyframes bounce1 {
     0% {
-      transform: translateY(-50%);
+      transform: scale(50%);
       animation-timing-function: linear;
     }
     100% {
-      transform: translateY(0);
+      transform: scale(1);
       animation-timing-function: linear;
     }
   }
