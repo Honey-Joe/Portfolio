@@ -63,3 +63,10 @@ form.addEventListener("submit", (e)=>{
     savetodb(fname.value,lname.value,email.value,mess.value);
 
 })
+
+const nav = document.getElementById("nav")
+const navbutt = document.getElementById("navbut")
+
+navbutt.addEventListener("click" , ()=>{
+    nav.classList.toggle("hidden")
+})

@@ -14,9 +14,46 @@
 <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
 </head>
 <body>
+
+    <!-- navigation section starting -->
+    <header>
+        <nav>
+            <div class="2xl:container">
+                <div class="w-[90%] grid grid-cols-2 lg:grid-cols-2 mx-auto">
+                    <div>
+                        <img src="./src/images/logo.png" alt="logo" class="w-[50%] lg:w-[15%] h-[full]">
+                    </div>
+                    <div class="flex justify-end h-full items-center lg:hidden" id="navbut">
+                        <i class="fa-solid fa-bars text-[#f79000] text-2xl"></i>
+                    </div>
+                    <div class="hidden lg:flex justify-end " id="nav">
+                        <div class="w-screen lg:w-[100%] bg-white absolute z-20 top-[15%] left-0 flex justify-center lg:static">
+                            <div class="h-full">
+                                <div class="h-full">
+                                    <ul class="text-center lg:flex justify-end gap-5 items-center h-full space-y-4 lg:space-y-0">
+                                        <li class="hover:-translate-y-3 transition"><a href="#landing" class="font-[RegularMono] font-semibold text-lg">Home</a></li>
+                                        <li class="hover:-translate-y-3 transition"><a href="#about" class="font-[RegularMono] font-semibold text-lg">About</a></li>
+                                        <li class="hover:-translate-y-3 transition"><a href="#resume" class="font-[RegularMono] font-semibold text-lg">Resume</a></li>
+                                        <li class="hover:-translate-y-3 transition"><a href="#service" class="font-[RegularMono] font-semibold text-lg">Service</a></li>
+                                        <li class="hover:-translate-y-3 transition"><a href="#skills" class="font-[RegularMono] font-semibold text-lg">Skills</a></li>
+                                        <li class="hover:-translate-y-3 transition"><a href="#work" class="font-[RegularMono] font-semibold text-lg">Project</a></li>
+                                        <li class="hover:-translate-y-3 transition"><a href="#contact" class="font-[RegularMono] font-semibold text-lg">Contact</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- navigation section  ending-->
     <!-- landing section starting  -->
 
-    <section>
+    <section id="landing">
         <div class="2xl:container bg-[url('https://ik.imagekit.io/HoneyJoe/Portfolio/images/cover_bg_3.jpg?updatedAt=1721571543229')] h-screen">
             <div class="w-[100%] bg-[#FC8B0A] opacity-95 h-screen grid grid-cols-1">
                 <div class="flex flex-col justify-center items-center" id="ani">
@@ -41,7 +78,7 @@
     <!-- landing section ending  -->
 
     <!-- about section staring  -->
-    <section>
+    <section id="about">
         <div class="2xl:container mx-auto my-[100px] space-y-6">
             <div class="flex justify-center">
                 <h1 class="font-[RegularMono] text-3xl">About me</h1>
@@ -91,7 +128,7 @@
     <!-- about section ending  -->
 
     <!-- resume section starting  -->
-    <section>
+    <section id="resume">
         <div class="2xl:container mx-auto space-y-10">
             <div class="flex justify-center">
                 <h1 class="font-[RegularMono] text-3xl">My Resume</h1>
@@ -170,7 +207,7 @@
     <!-- resume section ending  -->
 
     <!-- service section starting  -->
-    <section>
+    <section id="service">
         <div class="2xl:container mx-auto my-[200px] bg-[#FF9000] h-full py-[150px]">
             <div class="flex justify-center py-5"> 
                 <h1 class="font-[RegularMono] text-3xl text-white">My Services</h1>
@@ -221,7 +258,7 @@
     <!-- service section ending  -->
 
     <!-- skills section starting  -->
-    <section>
+    <section id="skills">
         <div class="2xl:container space-y-10">
             <div class="flex justify-center">
                 <h1 class="font-[RegularMono] text-3xl">Skills</h1>
@@ -345,7 +382,7 @@
     <!-- skills section ending  -->
 
     <!-- work section staring  -->
-    <section>
+    <section id="work">
         <div class="2xl:container my-[100px] bg-[#FF9000] h-full">
             <div class="flex justify-center py-10">
                 <h1 class="font-[RegularMono] text-3xl text-white">My Work</h1>
@@ -401,7 +438,7 @@
     <!-- work section ending  -->
 
     <!-- contact scetion starting  -->
-    <section>
+    <section id="contact">
         <div class="2xl:container">
             <div class="w-[99%] mx-auto grid grid-cols-1 lg:grid-cols-2">
                 <div class="hidden lg:block">
